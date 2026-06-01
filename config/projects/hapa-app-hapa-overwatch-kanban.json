@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-overwatch-kanban",
+      "Live source at hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-overwatch-kanban",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -89,7 +89,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not use it to mutate credentials, production data, generated assets, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "hapa-overwatch-kanban",
-      "nodePath": "/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-overwatch-kanban",
+      "nodePath": "hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-overwatch-kanban",
       "source": "quest-extra",
       "consolidatedBy": "hapa-quest-keeper"
     }

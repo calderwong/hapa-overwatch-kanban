@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Desktop/pulse-node-proto-dev/hapa-cultivation-suite",
+      "Live source at hapa-local://desktop/pulse-node-proto-dev/hapa-cultivation-suite",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -89,7 +89,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not use it to mutate credentials, production data, generated assets, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "hapa-cultivation-suite",
-      "nodePath": "/Users/calderwong/Desktop/pulse-node-proto-dev/hapa-cultivation-suite",
+      "nodePath": "hapa-local://desktop/pulse-node-proto-dev/hapa-cultivation-suite",
       "source": "node-map",
       "consolidatedBy": "hapa-quest-keeper"
     }

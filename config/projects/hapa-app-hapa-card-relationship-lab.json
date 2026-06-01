@@ -65,8 +65,8 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live prototype source at /Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-card-relationship-lab",
-      "Second Brain database at /Users/calderwong/Documents/Codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain/hapa_second_brain.db",
+      "Live prototype source at hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-card-relationship-lab",
+      "Second Brain database at hapa-local://codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain/hapa_second_brain.db",
       "Hapa dev proto card model and card detail notes",
       "Hapa Worldbuilding Wiki protocol docs",
       "Overwatch Kanban append-only event log"
@@ -76,7 +76,7 @@
     "safeActionPolicy": "The first prototype uses source-anchored static graph data. Live database export and writeback actions require explicit scoped follow-up.",
     "questKeeper": {
       "nodeId": "hapa-card-relationship-lab",
-      "nodePath": "/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-card-relationship-lab",
+      "nodePath": "hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-card-relationship-lab",
       "source": "codex-build",
       "consolidatedBy": "hapa-overwatch-kanban"
     }

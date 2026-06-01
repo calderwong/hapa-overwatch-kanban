@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Desktop/Hapa_Worldbuilding_Wiki",
+      "Live source at hapa-local://desktop/Hapa_Worldbuilding_Wiki",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -89,7 +89,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not use it to mutate credentials, production data, generated assets, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "hapa-worldbuilding-wiki",
-      "nodePath": "/Users/calderwong/Desktop/Hapa_Worldbuilding_Wiki",
+      "nodePath": "hapa-local://desktop/Hapa_Worldbuilding_Wiki",
       "source": "node-map",
       "consolidatedBy": "hapa-quest-keeper"
     }

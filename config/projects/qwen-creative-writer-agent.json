@@ -88,7 +88,7 @@
       "Overwatch Kanban event log",
       "Hapa front-door / Node Space routing",
       "Wiki canon and Second Brain retrieval",
-      "Live source at /Users/calderwong/Documents/Codex/2026-05-27/you-are-an-expert-hapa-protocol-4",
+      "Live source at hapa-local://codex/2026-05-27/you-are-an-expert-hapa-protocol-4",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -107,7 +107,7 @@
     "safeActionPolicy": "The Qwen tracker may record coordination events and run explicit local verification. It must not publish adapters, mutate model weights outside declared job folders, or claim live MLX proof without command/log evidence.",
     "questKeeper": {
       "nodeId": "qwen-creative-writer-agent",
-      "nodePath": "/Users/calderwong/Documents/Codex/2026-05-27/you-are-an-expert-hapa-protocol-4",
+      "nodePath": "hapa-local://codex/2026-05-27/you-are-an-expert-hapa-protocol-4",
       "source": "quest-extra",
       "consolidatedBy": "hapa-quest-keeper"
     }

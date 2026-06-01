@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Desktop/hapa-media-snapshot-12-25-2025",
+      "Live source at hapa-local://desktop/hapa-media-snapshot-12-25-2025",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -89,7 +89,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not use it to mutate credentials, production data, generated assets, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "hapa-media-snapshot-12-25-2025",
-      "nodePath": "/Users/calderwong/Desktop/hapa-media-snapshot-12-25-2025",
+      "nodePath": "hapa-local://desktop/hapa-media-snapshot-12-25-2025",
       "source": "directory-scan",
       "consolidatedBy": "hapa-quest-keeper"
     }

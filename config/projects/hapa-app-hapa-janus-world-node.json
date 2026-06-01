@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Desktop/hapa-janus-world-node",
+      "Live source at hapa-local://desktop/hapa-janus-world-node",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -89,7 +89,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not use it to mutate credentials, production data, generated assets, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "hapa-janus-world-node",
-      "nodePath": "/Users/calderwong/Desktop/hapa-janus-world-node",
+      "nodePath": "hapa-local://desktop/hapa-janus-world-node",
       "source": "node-map",
       "consolidatedBy": "hapa-quest-keeper"
     }

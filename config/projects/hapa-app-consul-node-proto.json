@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Desktop/Consul Node Proto",
+      "Live source at hapa-local://desktop/Consul Node Proto",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -89,7 +89,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not use it to mutate credentials, production data, generated assets, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "consul-node-proto",
-      "nodePath": "/Users/calderwong/Desktop/Consul Node Proto",
+      "nodePath": "hapa-local://desktop/Consul Node Proto",
       "source": "node-map",
       "consolidatedBy": "hapa-quest-keeper"
     }

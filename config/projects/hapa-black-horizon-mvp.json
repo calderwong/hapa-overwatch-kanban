@@ -82,7 +82,7 @@
       ".Overwatch operations evidence",
       "Node Space/front-door routing",
       "Second Brain retrieval and enrichment",
-      "Live source at /Users/calderwong/hapa-space",
+      "Live source at hapa-local://home/hapa-space",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -100,7 +100,7 @@
     "safeActionPolicy": "The MVP tracker may record work proposals and coordination events, but it must not perform destructive repo or Unity operations.",
     "questKeeper": {
       "nodeId": "hapa-space",
-      "nodePath": "/Users/calderwong/hapa-space",
+      "nodePath": "hapa-local://home/hapa-space",
       "source": "quest-extra",
       "consolidatedBy": "hapa-quest-keeper"
     }

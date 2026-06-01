@@ -131,15 +131,15 @@ Rules:
 
 Current Black Horizon proof:
 
-- [HUMAN_AUTHORIZATION_GRANT_2026-05-31.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/HUMAN_AUTHORIZATION_GRANT_2026-05-31.md)
-- [human_authorization_grant_2026_05_31.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/human_authorization_grant_2026_05_31.json)
+- [HUMAN_AUTHORIZATION_GRANT_2026-05-31.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/HUMAN_AUTHORIZATION_GRANT_2026-05-31.md)
+- [human_authorization_grant_2026_05_31.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/human_authorization_grant_2026_05_31.json)
 
 The 2026-05-31 Black Horizon grant accepted the then-current `72` review cards and authorized scoped credential access, live service calls, dataset writes, Unity prefab writes, Unity persistent scene writes, canon promotion, and generated asset promotion.
 
 The first authority-aware architecture pass after the grant is:
 
-- [PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md)
-- [phase4b_authority_architecture_backlog_2026_05_31.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase4b_authority_architecture_backlog_2026_05_31.json)
+- [PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md)
+- [phase4b_authority_architecture_backlog_2026_05_31.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase4b_authority_architecture_backlog_2026_05_31.json)
 
 It created `12` backlog cards for authority operation ledgering, secret redaction, live service pilots, Unity persistence, dataset/canon/generated-asset promotion, phone confirmations, and rollback discipline. Board proof after refill: `106` tasks, `82` done, `0` review, `4` ready, `20` backlog, `843` events, and `0` blocked.
 
@@ -158,9 +158,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK_REPORT.md)
-- [PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK.md)
-- [phase3_review_acceptance_session_pack.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase3_review_acceptance_session_pack.json)
+- [PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK_REPORT.md)
+- [PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_REVIEW_ACCEPTANCE_SESSION_PACK.md)
+- [phase3_review_acceptance_session_pack.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase3_review_acceptance_session_pack.json)
 
 ## Phase Refill Pattern
 
@@ -179,12 +179,12 @@ Rules:
 
 Current Black Horizon proof:
 
-- [PHASE4_POST_MORTEM_AND_BACKLOG_REFILL_2026-05-31.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE4_POST_MORTEM_AND_BACKLOG_REFILL_2026-05-31.md)
-- [phase4_backlog_refill_2026_05_31.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase4_backlog_refill_2026_05_31.json)
-- [PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md)
-- [phase4b_authority_architecture_backlog_2026_05_31.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase4b_authority_architecture_backlog_2026_05_31.json)
-- [PHASE5_ARCHITECTURE_PASS_AND_BACKLOG_REFILL_2026-05-31.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE5_ARCHITECTURE_PASS_AND_BACKLOG_REFILL_2026-05-31.md)
-- [phase5_architecture_backlog_2026_05_31.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase5_architecture_backlog_2026_05_31.json)
+- [PHASE4_POST_MORTEM_AND_BACKLOG_REFILL_2026-05-31.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE4_POST_MORTEM_AND_BACKLOG_REFILL_2026-05-31.md)
+- [phase4_backlog_refill_2026_05_31.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase4_backlog_refill_2026_05_31.json)
+- [PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE4B_AUTHORITY_ARCHITECTURE_PASS_2026-05-31.md)
+- [phase4b_authority_architecture_backlog_2026_05_31.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase4b_authority_architecture_backlog_2026_05_31.json)
+- [PHASE5_ARCHITECTURE_PASS_AND_BACKLOG_REFILL_2026-05-31.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE5_ARCHITECTURE_PASS_AND_BACKLOG_REFILL_2026-05-31.md)
+- [phase5_architecture_backlog_2026_05_31.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/phase5_architecture_backlog_2026_05_31.json)
 
 Phase 4 is `Operator Proof`: a consolidation pass to make Unity, phone, board, generated-data truth lanes, and authority gates demonstrable by a human without expanding writer authority.
 
@@ -207,9 +207,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [PHASE3_MVP_RELEASE_CANDIDATE_MANIFEST_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_MVP_RELEASE_CANDIDATE_MANIFEST_REPORT.md)
-- [BLACK_HORIZON_MVP_RELEASE_CANDIDATE_MANIFEST.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/BLACK_HORIZON_MVP_RELEASE_CANDIDATE_MANIFEST.md)
-- [black_horizon_mvp_release_candidate_manifest.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/black_horizon_mvp_release_candidate_manifest.json)
+- [PHASE3_MVP_RELEASE_CANDIDATE_MANIFEST_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_MVP_RELEASE_CANDIDATE_MANIFEST_REPORT.md)
+- [BLACK_HORIZON_MVP_RELEASE_CANDIDATE_MANIFEST.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/BLACK_HORIZON_MVP_RELEASE_CANDIDATE_MANIFEST.md)
+- [black_horizon_mvp_release_candidate_manifest.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/black_horizon_mvp_release_candidate_manifest.json)
 
 ## Unity Generated Data Hub Pattern
 
@@ -226,9 +226,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [UNITY_GENERATED_DATA_HUB_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/UNITY_GENERATED_DATA_HUB_REPORT.md)
-- [unity_generated_data_hub.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/unity_generated_data_hub.json)
-- [Unity generated copy](/Users/calderwong/hapa-space/Assets/HapaBlackHorizon/Data/Generated/unity_generated_data_hub.json)
+- [UNITY_GENERATED_DATA_HUB_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/UNITY_GENERATED_DATA_HUB_REPORT.md)
+- [unity_generated_data_hub.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/unity_generated_data_hub.json)
+- [Unity generated copy](hapa-local://home/hapa-space/Assets/HapaBlackHorizon/Data/Generated/unity_generated_data_hub.json)
 
 ## Janus World-State Bridge Pattern
 
@@ -245,9 +245,9 @@ Rules for this bridge:
 
 Current Black Horizon proof:
 
-- [JANUS_WORLD_STATE_BRIDGE_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/JANUS_WORLD_STATE_BRIDGE_REPORT.md)
-- [janus_world_state_bridge.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/janus_world_state_bridge.json)
-- [generate_janus_world_state_bridge.py](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_janus_world_state_bridge.py)
+- [JANUS_WORLD_STATE_BRIDGE_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/JANUS_WORLD_STATE_BRIDGE_REPORT.md)
+- [janus_world_state_bridge.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/janus_world_state_bridge.json)
+- [generate_janus_world_state_bridge.py](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_janus_world_state_bridge.py)
 
 ## Janus Read-Only Handshake Pattern
 
@@ -264,9 +264,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [JANUS_READONLY_HANDSHAKE_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/JANUS_READONLY_HANDSHAKE_REPORT.md)
-- [janus_readonly_handshake.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/janus_readonly_handshake.json)
-- [Unity generated copy](/Users/calderwong/hapa-space/Assets/HapaBlackHorizon/Data/Generated/janus_readonly_handshake.json)
+- [JANUS_READONLY_HANDSHAKE_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/JANUS_READONLY_HANDSHAKE_REPORT.md)
+- [janus_readonly_handshake.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/janus_readonly_handshake.json)
+- [Unity generated copy](hapa-local://home/hapa-space/Assets/HapaBlackHorizon/Data/Generated/janus_readonly_handshake.json)
 
 ## Service Endpoint Observation Pattern
 
@@ -283,9 +283,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [REAL_NODE_CAPABILITY_INGEST_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/REAL_NODE_CAPABILITY_INGEST_REPORT.md)
-- [node_runtime_state.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/node_runtime_state.json)
-- [generate_runtime_state.py](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_runtime_state.py)
+- [REAL_NODE_CAPABILITY_INGEST_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/REAL_NODE_CAPABILITY_INGEST_REPORT.md)
+- [node_runtime_state.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/node_runtime_state.json)
+- [generate_runtime_state.py](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_runtime_state.py)
 
 ## Reference Video Capture Pattern
 
@@ -301,9 +301,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [PHASE2_REFERENCE_DEMO_VIDEO_CAPTURE.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE2_REFERENCE_DEMO_VIDEO_CAPTURE.md)
-- [black-horizon-reference-video.mp4](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/black-horizon-reference-video/renders/black-horizon-reference-video.mp4)
-- [black-horizon-reference-video index.html](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/black-horizon-reference-video/index.html)
+- [PHASE2_REFERENCE_DEMO_VIDEO_CAPTURE.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE2_REFERENCE_DEMO_VIDEO_CAPTURE.md)
+- [black-horizon-reference-video.mp4](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/black-horizon-reference-video/renders/black-horizon-reference-video.mp4)
+- [black-horizon-reference-video index.html](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/black-horizon-reference-video/index.html)
 
 ## Draft Card Export Staging Pattern
 
@@ -319,9 +319,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [ANVIL_LANCE_CARD_EXPORT_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/ANVIL_LANCE_CARD_EXPORT_REPORT.md)
-- [anvil_lance_card_export manifest.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/anvil_lance_card_export/manifest.json)
-- [generate_anvil_lance_card_export.py](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_anvil_lance_card_export.py)
+- [ANVIL_LANCE_CARD_EXPORT_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/ANVIL_LANCE_CARD_EXPORT_REPORT.md)
+- [anvil_lance_card_export manifest.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/anvil_lance_card_export/manifest.json)
+- [generate_anvil_lance_card_export.py](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_anvil_lance_card_export.py)
 
 ## Anvil/Lance Review Import Plan Pattern
 
@@ -338,9 +338,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [ANVIL_LANCE_CARD_REVIEW_IMPORT_PLAN_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/ANVIL_LANCE_CARD_REVIEW_IMPORT_PLAN_REPORT.md)
-- [anvil_lance_card_review_import_plan.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/anvil_lance_card_review_import_plan.json)
-- [generate_anvil_lance_card_review_import_plan.py](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_anvil_lance_card_review_import_plan.py)
+- [ANVIL_LANCE_CARD_REVIEW_IMPORT_PLAN_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/ANVIL_LANCE_CARD_REVIEW_IMPORT_PLAN_REPORT.md)
+- [anvil_lance_card_review_import_plan.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/anvil_lance_card_review_import_plan.json)
+- [generate_anvil_lance_card_review_import_plan.py](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_anvil_lance_card_review_import_plan.py)
 
 ## Physical Phone Playtest Runbook Pattern
 
@@ -357,9 +357,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [PHASE3_PHONE_PLAYTEST_RUNBOOK_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_PHONE_PLAYTEST_RUNBOOK_REPORT.md)
-- [PHYSICAL_PHONE_PLAYTEST_RUNBOOK.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHYSICAL_PHONE_PLAYTEST_RUNBOOK.md)
-- [physical_phone_playtest_evidence_checklist.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/physical_phone_playtest_evidence_checklist.json)
+- [PHASE3_PHONE_PLAYTEST_RUNBOOK_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHASE3_PHONE_PLAYTEST_RUNBOOK_REPORT.md)
+- [PHYSICAL_PHONE_PLAYTEST_RUNBOOK.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/PHYSICAL_PHONE_PLAYTEST_RUNBOOK.md)
+- [physical_phone_playtest_evidence_checklist.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/physical_phone_playtest_evidence_checklist.json)
 
 ## Proposal-Only Match Loop Pattern
 
@@ -375,9 +375,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [BLACK_HORIZON_MATCH_LOOP_V1_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/BLACK_HORIZON_MATCH_LOOP_V1_REPORT.md)
-- [black_horizon_match_loop_v1.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/black_horizon_match_loop_v1.json)
-- [generate_black_horizon_match_loop_v1.py](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_black_horizon_match_loop_v1.py)
+- [BLACK_HORIZON_MATCH_LOOP_V1_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/BLACK_HORIZON_MATCH_LOOP_V1_REPORT.md)
+- [black_horizon_match_loop_v1.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/black_horizon_match_loop_v1.json)
+- [generate_black_horizon_match_loop_v1.py](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_black_horizon_match_loop_v1.py)
 
 ## Match Loop Playability Contract Pattern
 
@@ -394,9 +394,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [BLACK_HORIZON_MATCH_LOOP_V2_PLAYABILITY_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/BLACK_HORIZON_MATCH_LOOP_V2_PLAYABILITY_REPORT.md)
-- [black_horizon_match_loop_v2_playability.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/black_horizon_match_loop_v2_playability.json)
-- [generate_black_horizon_match_loop_v2_playability.py](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_black_horizon_match_loop_v2_playability.py)
+- [BLACK_HORIZON_MATCH_LOOP_V2_PLAYABILITY_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/BLACK_HORIZON_MATCH_LOOP_V2_PLAYABILITY_REPORT.md)
+- [black_horizon_match_loop_v2_playability.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/black_horizon_match_loop_v2_playability.json)
+- [generate_black_horizon_match_loop_v2_playability.py](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_black_horizon_match_loop_v2_playability.py)
 
 ## CLI/API/UI Parity
 
@@ -476,9 +476,9 @@ Rules:
 
 Current Black Horizon proof:
 
-- [RUNTIME_INTERIOR_COCKPIT_PASS_REPORT.md](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/RUNTIME_INTERIOR_COCKPIT_PASS_REPORT.md)
-- [runtime_interior_cockpit_pass.json](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/runtime_interior_cockpit_pass.json)
-- [generate_runtime_interior_cockpit_pass.py](/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_runtime_interior_cockpit_pass.py)
+- [RUNTIME_INTERIOR_COCKPIT_PASS_REPORT.md](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-mvp-demo-notes/RUNTIME_INTERIOR_COCKPIT_PASS_REPORT.md)
+- [runtime_interior_cockpit_pass.json](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/runtime_interior_cockpit_pass.json)
+- [generate_runtime_interior_cockpit_pass.py](hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-fleet-compiler/generate_runtime_interior_cockpit_pass.py)
 
 ## Procedural Builder Preview Pattern
 

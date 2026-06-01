@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Desktop/HAPA-EXPORTS-STAGING",
+      "Live source at hapa-local://desktop/HAPA-EXPORTS-STAGING",
       "App README, manifest, AGENTS.md, and tests",
       "Overwatch Kanban append-only event log",
       "Hapa Quest Keeper consolidated overview",
@@ -89,7 +89,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not use it to mutate credentials, production data, generated assets, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "hapa-exports-staging",
-      "nodePath": "/Users/calderwong/Desktop/HAPA-EXPORTS-STAGING",
+      "nodePath": "hapa-local://desktop/HAPA-EXPORTS-STAGING",
       "source": "directory-scan",
       "consolidatedBy": "hapa-quest-keeper"
     }

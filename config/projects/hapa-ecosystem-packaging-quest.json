@@ -77,11 +77,11 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live local repositories and working trees under /Users/calderwong/Desktop and selected /Users/calderwong/Documents/Codex roots",
-      "Hapa front-door repo /Users/calderwong/Desktop/hapa",
-      "Hapa Worldbuilding Wiki /Users/calderwong/Desktop/Hapa_Worldbuilding_Wiki",
-      "Hapa Second Brain /Users/calderwong/Documents/Codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
-      "Overwatch operations spine /Users/calderwong/Desktop/.Overwatch",
+      "Live local repositories and working trees under hapa-local://home/Desktop and selected hapa-local://home/Documents/Codex roots",
+      "Hapa front-door repo hapa-local://desktop/hapa",
+      "Hapa Worldbuilding Wiki hapa-local://desktop/Hapa_Worldbuilding_Wiki",
+      "Hapa Second Brain hapa-local://codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
+      "Overwatch operations spine hapa-local://desktop/.Overwatch",
       "Append-only Kanban events for this Quest"
     ],
     "recordRule": "Every architecture decision, audit result, migration action, blocker, verification, and publication-readiness claim is appended as an event. Do not rewrite event history.",
@@ -96,7 +96,7 @@
     "safeActionPolicy": "Plan and scaffold first. Do not move large assets, delete source folders, publish remotes, rewrite git history, or expose secrets without explicit human approval.",
     "questKeeper": {
       "nodeId": "hapa-ecosystem-packaging-quest",
-      "nodePath": "/Users/calderwong/Documents/Codex/2026-05-27/can-you-generate-me-some-concept/hapa-overwatch-kanban",
+      "nodePath": "hapa-local://codex/2026-05-27/can-you-generate-me-some-concept/hapa-overwatch-kanban",
       "source": "human-request-2026-05-31",
       "consolidatedBy": "hapa-quest-keeper"
     }

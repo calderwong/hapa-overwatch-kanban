@@ -71,7 +71,7 @@
   ],
   "protocol": {
     "sourceTruthHierarchy": [
-      "Live source at /Users/calderwong/Documents/Codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
+      "Live source at hapa-local://codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
       "hapa_second_brain.db and grouping_refresh_registry",
       "Second Brain README, AGENTS.md, docs, and wiki_articles",
       "Overwatch Kanban append-only event log",
@@ -90,7 +90,7 @@
     "safeActionPolicy": "This board records coordination and protocol state. Do not mutate source memories, credentials, source exports, generated media, or node stores without explicit human authorization.",
     "questKeeper": {
       "nodeId": "hapa-second-brain",
-      "nodePath": "/Users/calderwong/Documents/Codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
+      "nodePath": "hapa-local://codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
       "source": "operator-reviewed",
       "consolidatedBy": "hapa-quest-keeper"
     }

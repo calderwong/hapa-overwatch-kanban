@@ -37,7 +37,7 @@ curl -fsS http://127.0.0.1:5181/v1/projects
 
 ## Related Hapa Nodes
 
-- `/Users/calderwong/Desktop/hapa-quest-keeper` reads all project boards and summarizes ecosystem work state.
-- `/Users/calderwong/Desktop/hapa` is the Hapa front door and node map.
-- `/Users/calderwong/Desktop/.Overwatch` is the operations knowledgebase.
-- `/Users/calderwong/Desktop/Hapa_Worldbuilding_Wiki` stores protocol and operations documentation.
+- `hapa-local://desktop/hapa-quest-keeper` reads all project boards and summarizes ecosystem work state.
+- `hapa-local://desktop/hapa` is the Hapa front door and node map.
+- `hapa-local://desktop/.Overwatch` is the operations knowledgebase.
+- `hapa-local://desktop/Hapa_Worldbuilding_Wiki` stores protocol and operations documentation.
