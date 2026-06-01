@@ -4,9 +4,10 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const PROJECT_ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../..');
+const HAPA_WIKI_ROOT = process.env.HAPA_WIKI_ROOT || path.join(process.env.HOME || '', 'Desktop', 'Hapa_Worldbuilding_Wiki');
 const OUTPUT_MD = path.join(PROJECT_ROOT, 'hapa-mvp-demo-notes/PHASE4_REVIEW_BURN_DOWN_DECISION_WORKBENCH_REPORT.md');
 const OUTPUT_JSON = path.join(PROJECT_ROOT, 'hapa-mvp-demo-notes/phase4_review_burn_down_decision_workbench.json');
-const WIKI_COPY = '/Users/calderwong/Desktop/Hapa_Worldbuilding_Wiki/Operations/Black Horizon Review Burn Down Decision Workbench.md';
+const WIKI_COPY = path.join(HAPA_WIKI_ROOT, 'Operations/Black Horizon Review Burn Down Decision Workbench.md');
 const TASK_ID = 'phase4-review-burn-down-decision-workbench';
 
 const args = process.argv.slice(2);
