@@ -1,0 +1,65 @@
+{
+  "id": "overwatch-kanban-agent-coordination",
+  "name": "Overwatch Kanban Agent Coordination",
+  "summary": "Track Blue, Red, Green, Overwatch, and human coordination through an append-only Kanban/event protocol.",
+  "color": 6212308,
+  "steps": [
+    {
+      "source": "Human",
+      "target": "Overwatch Kanban",
+      "layer": "UI",
+      "label": "The project owner creates or reviews cards, messages, blocks, and checkpoints.",
+      "explanation": [
+        "The human keeps project intent and priority anchored. The board is not just a list of tasks; it is a living control surface for deciding what matters next.",
+        "Every human decision enters as an append-only event so future agents can see the context rather than reconstruct it from a vague final state."
+      ]
+    },
+    {
+      "source": "Codex Avatars",
+      "target": "Overwatch Kanban",
+      "layer": "CLI|API",
+      "label": "Blue, Red, Green, and Overwatch append progress, handoffs, blockers, and verification notes.",
+      "explanation": [
+        "Each avatar speaks through the same event protocol. Blue can record data work, Red can record Unity scene work, Green can record interaction work, and Overwatch can record integration status.",
+        "Because the protocol is shared, humans and agents can coordinate without losing who knew what, when they knew it, and which source supported the claim."
+      ]
+    },
+    {
+      "source": "Overwatch Kanban",
+      "target": "Append-Only Event Log",
+      "layer": "DATA",
+      "label": "The event is appended as NDJSON and becomes the coordination source of truth.",
+      "explanation": [
+        "The tracker avoids silent mutation. A card move, block, comment, and checkpoint all remain visible as events.",
+        "This turns coordination into replayable operational memory, which fits Hapa's preference for provenance, source ownership, and durable records."
+      ]
+    },
+    {
+      "source": "Append-Only Event Log",
+      "target": "Board Projection",
+      "layer": "API",
+      "label": "The server folds the event stream into current board state, project messages, and telemetry.",
+      "explanation": [
+        "The board is a projection, not the canonical record. If the UI is rebuilt or replaced, the same event log can recreate the state.",
+        "Telemetry comes from the same facts as the board, so health indicators and progress counts stay tied to the real coordination record."
+      ]
+    }
+  ],
+  "card": {
+    "verb": "COORDINATE",
+    "type": "Agent Operations",
+    "rank": "Rare",
+    "grade": "A",
+    "description": "Turns multi-agent project work into a replayable event stream with Kanban projection, communications, blockers, and telemetry.",
+    "effect": "Allows humans and agents to share one durable work surface while preserving provenance and Hapa protocol parity.",
+    "risk": "If agents mark work complete without verification events, the board becomes theater instead of truth.",
+    "stats": {
+      "impact": 9,
+      "reliability": 8,
+      "complexity": 5,
+      "cost": 3,
+      "speed": 8,
+      "teaching": 9
+    }
+  }
+}

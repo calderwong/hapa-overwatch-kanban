@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hapa Overwatch Kanban</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Hapa Protocol / Overwatch</p>
+          <h1 id="projectTitle">Hapa App Build Tracker</h1>
+          <p class="project-summary" id="projectSummary"></p>
+        </div>
+        <div class="topbar-actions">
+          <label class="project-switcher">
+            Project
+            <select id="projectSelect"></select>
+          </label>
+          <div class="status-strip" id="statusStrip">
+            <span>loading</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="board-zone" aria-label="Kanban board">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Append-only projection</p>
+              <h2>Work Board</h2>
+            </div>
+            <button class="icon-text" id="refreshButton" type="button">Refresh</button>
+          </div>
+          <div class="board" id="board"></div>
+        </section>
+
+        <aside class="side-zone" aria-label="Protocol telemetry">
+          <section class="panel">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Protocol</p>
+                <h2>Record Rule</h2>
+              </div>
+            </div>
+            <p class="record-rule" id="recordRule"></p>
+            <div class="protocol-flow" id="protocolFlow"></div>
+          </section>
+
+          <section class="panel">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Telemetry</p>
+                <h2>Board Health</h2>
+              </div>
+            </div>
+            <div class="telemetry-grid" id="telemetryGrid"></div>
+            <div class="actor-load" id="actorLoad"></div>
+          </section>
+
+          <section class="panel control-plane-panel" aria-label="Live telemetry control plane">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Operator Alpha</p>
+                <h2>Control Plane</h2>
+              </div>
+            </div>
+            <div class="control-plane-grid" id="controlPlaneGrid"></div>
+            <div class="control-plane-lanes" id="controlPlaneLanes"></div>
+            <div class="control-plane-nodes" id="controlPlaneNodes"></div>
+          </section>
+
+          <section class="panel agent-crew-panel" aria-label="Agent crew ops console">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Operator Alpha</p>
+                <h2>Agent Crew Ops</h2>
+              </div>
+            </div>
+            <div class="agent-crew-grid" id="agentCrewGrid"></div>
+            <div class="agent-crew-commands" id="agentCrewCommands"></div>
+            <div class="agent-crew-cards" id="agentCrewCards"></div>
+          </section>
+
+          <section class="panel review-console" aria-label="Review gate operator console">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Review ops</p>
+                <h2>Gate Console</h2>
+              </div>
+            </div>
+            <div class="review-console-grid" id="reviewConsoleGrid"></div>
+            <div class="review-lanes" id="reviewLanes"></div>
+            <div class="review-candidates" id="reviewCandidates"></div>
+          </section>
+
+          <section class="panel authority-console" aria-label="Authority operator console">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Authority ops</p>
+                <h2>Grant Console</h2>
+              </div>
+            </div>
+            <div class="authority-console-grid" id="authorityConsoleGrid"></div>
+            <div class="authority-risk-rows" id="authorityRiskRows"></div>
+            <div class="authority-ledger" id="authorityLedger"></div>
+            <div class="authority-queue" id="authorityQueue"></div>
+          </section>
+
+          <section class="panel promotion-workbench" aria-label="Generated asset promotion workbench">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Builder ops</p>
+                <h2>Promotion Workbench</h2>
+              </div>
+            </div>
+            <div class="promotion-workbench-grid" id="promotionWorkbenchGrid"></div>
+            <div class="promotion-gates" id="promotionWorkbenchGates"></div>
+            <div class="promotion-candidates" id="promotionWorkbenchCandidates"></div>
+            <div class="promotion-rollback" id="promotionWorkbenchRollback"></div>
+          </section>
+
+          <section class="panel review-gate">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Human gate</p>
+                <h2>Review Decision</h2>
+              </div>
+            </div>
+            <form id="reviewForm">
+              <label class="wide">
+                Review Card
+                <select id="reviewTask"></select>
+              </label>
+              <label>
+                Decision
+                <select id="reviewDecision">
+                  <option value="accept">Accept</option>
+                  <option value="revise">Revise</option>
+                  <option value="promote">Promote</option>
+                  <option value="defer">Defer</option>
+                </select>
+              </label>
+              <label>
+                Actor
+                <select id="reviewActor"></select>
+              </label>
+              <label class="wide">
+                Evidence Link
+                <input id="reviewEvidence" type="text" placeholder="/absolute/path/or/evidence">
+              </label>
+              <label class="wide">
+                Human Note
+                <textarea id="reviewNote" rows="3" placeholder="Decision reason and acceptance boundary."></textarea>
+              </label>
+              <label class="wide" id="reviewFollowupWrap">
+                Follow-Up Title
+                <input id="reviewFollowupTitle" type="text" placeholder="Phase 2 follow-up title">
+              </label>
+              <button type="submit">Append Decision</button>
+            </form>
+            <p class="review-status" id="reviewStatus"></p>
+          </section>
+        </aside>
+
+        <section class="lower-zone">
+          <section class="panel composer">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Append event</p>
+                <h2>Communicate</h2>
+              </div>
+            </div>
+            <form id="messageForm">
+              <label>
+                Actor
+                <select id="messageActor"></select>
+              </label>
+              <label>
+                Scope
+                <select id="messageScope">
+                  <option value="project">Project</option>
+                  <option value="blue">Blue</option>
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="overwatch">Overwatch</option>
+                </select>
+              </label>
+              <label class="wide">
+                Message
+                <textarea id="messageBody" rows="3" placeholder="Append a project note, handoff, decision, or block context."></textarea>
+              </label>
+              <button type="submit">Append Message</button>
+            </form>
+          </section>
+
+          <section class="panel composer">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Append task</p>
+                <h2>Create Card</h2>
+              </div>
+            </div>
+            <form id="taskForm">
+              <label>
+                Owner
+                <select id="taskOwner"></select>
+              </label>
+              <label>
+                Priority
+                <select id="taskPriority">
+                  <option>P0</option>
+                  <option>P1</option>
+                  <option selected>P2</option>
+                  <option>P3</option>
+                </select>
+              </label>
+              <label class="wide">
+                Title
+                <input id="taskTitle" type="text" placeholder="Short task title">
+              </label>
+              <label class="wide">
+                Description
+                <textarea id="taskDescription" rows="3" placeholder="What should happen and how we know it is done."></textarea>
+              </label>
+              <button type="submit">Create Card</button>
+            </form>
+          </section>
+
+          <section class="panel log-panel">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Append-only communications</p>
+                <h2>Project Log</h2>
+              </div>
+            </div>
+            <div class="message-log" id="messageLog"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js" type="module"></script>
+    <script data-hapa-kanban-ingress="hapa-app-hapa-overwatch-kanban">
+      (function () {
+        var projectId = 'hapa-app-hapa-overwatch-kanban';
+        var boardUrl = 'http://127.0.0.1:5181/?project=' + encodeURIComponent(projectId);
+        function mountKanbanIngress() {
+          if (!document.body || document.querySelector('[data-hapa-kanban-link="' + projectId + '"]')) return;
+          var link = document.createElement('a');
+          link.href = boardUrl;
+          link.target = '_blank';
+          link.rel = 'noreferrer';
+          link.textContent = 'Kanban';
+          link.className = 'hapa-kanban-ingress';
+          link.dataset.hapaKanbanLink = projectId;
+          link.setAttribute('aria-label', 'Open Overwatch Kanban board for ' + projectId);
+          Object.assign(link.style, {
+            position: 'fixed',
+            right: '16px',
+            bottom: '16px',
+            zIndex: '2147483000',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            minHeight: '38px',
+            padding: '0 14px',
+            border: '1px solid rgba(55, 215, 255, 0.55)',
+            borderRadius: '8px',
+            background: 'rgba(2, 6, 23, 0.92)',
+            color: '#dffbff',
+            font: '700 12px/1.1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace',
+            letterSpacing: '0',
+            textDecoration: 'none',
+            boxShadow: '0 0 18px rgba(55, 215, 255, 0.22)',
+            backdropFilter: 'blur(10px)'
+          });
+          document.body.appendChild(link);
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', mountKanbanIngress, { once: true });
+        } else {
+          mountKanbanIngress();
+        }
+      }());
+    </script>
+  </body>
+</html>

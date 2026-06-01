@@ -1,0 +1,15 @@
+{
+  "name": "hapa-overwatch-kanban",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Append-only Hapa Overwatch Kanban, communication, and telemetry tracker.",
+  "scripts": {
+    "start": "node server.mjs",
+    "cli": "node bin/overwatch-kanban.mjs",
+    "smoke": "node bin/overwatch-kanban.mjs smoke"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

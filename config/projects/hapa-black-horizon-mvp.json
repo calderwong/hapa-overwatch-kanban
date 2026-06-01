@@ -1,0 +1,108 @@
+{
+  "id": "hapa-black-horizon-mvp",
+  "name": "Hapa Black Horizon MVP",
+  "summary": "Coordination board for the Blue, Red, Green, and Overwatch agents building the repo-to-ship Unity MVP.",
+  "active": true,
+  "protocolVersion": "hapa-overwatch-kanban/0.1.0",
+  "seedEventsPath": "seed/hapa-black-horizon-mvp.events.ndjson",
+  "columns": [
+    {
+      "id": "backlog",
+      "label": "Backlog",
+      "intent": "Known work not yet ready for an agent."
+    },
+    {
+      "id": "ready",
+      "label": "Ready",
+      "intent": "Scoped work with enough context to start."
+    },
+    {
+      "id": "in_progress",
+      "label": "In Progress",
+      "intent": "Actively owned work."
+    },
+    {
+      "id": "blocked",
+      "label": "Blocked",
+      "intent": "Work that needs a decision, dependency, or external state change."
+    },
+    {
+      "id": "review",
+      "label": "Review",
+      "intent": "Ready for Overwatch/user review and integration check."
+    },
+    {
+      "id": "done",
+      "label": "Done",
+      "intent": "Verified and recorded."
+    }
+  ],
+  "actors": [
+    {
+      "id": "QuestKeeper",
+      "label": "QuestKeeper",
+      "role": "Consolidated audit and board coverage agent.",
+      "color": "#37d7ff"
+    },
+    {
+      "id": "Overwatch",
+      "label": "Overwatch",
+      "role": "Protocol tracker, integration watcher, and append-only recorder.",
+      "color": "#f5c85c"
+    },
+    {
+      "id": "Blue",
+      "label": "Blue",
+      "role": "Node truth, repo metrics, fleet manifest, provenance.",
+      "color": "#42b7ff"
+    },
+    {
+      "id": "Green",
+      "label": "Green",
+      "role": "Interaction, phone-ready controls, demo loop, QA.",
+      "color": "#4be38a"
+    },
+    {
+      "id": "Human",
+      "label": "Human",
+      "role": "Project owner, reviewer, priority setter, canon authority.",
+      "color": "#d6d8ff"
+    },
+    {
+      "id": "Red",
+      "label": "Red",
+      "role": "Unity scene, kit-backed ships, orbit world, visual integration.",
+      "color": "#ff5b6e"
+    }
+  ],
+  "protocol": {
+    "sourceTruthHierarchy": [
+      "Live source and endpoints",
+      "Wiki canon",
+      ".Overwatch operations evidence",
+      "Node Space/front-door routing",
+      "Second Brain retrieval and enrichment",
+      "Live source at /Users/calderwong/hapa-space",
+      "App README, manifest, AGENTS.md, and tests",
+      "Overwatch Kanban append-only event log",
+      "Hapa Quest Keeper consolidated overview",
+      "Hapa Worldbuilding Wiki and Second Brain retrieval"
+    ],
+    "recordRule": "Every board change, communication, block, checkpoint, and telemetry observation is appended as an event. The board is derived from the event log.",
+    "paritySurfaces": [
+      "UI",
+      "API",
+      "CLI",
+      "DATA",
+      "DESKTOP",
+      "TESTS"
+    ],
+    "safeActionPolicy": "The MVP tracker may record work proposals and coordination events, but it must not perform destructive repo or Unity operations.",
+    "questKeeper": {
+      "nodeId": "hapa-space",
+      "nodePath": "/Users/calderwong/hapa-space",
+      "source": "quest-extra",
+      "consolidatedBy": "hapa-quest-keeper"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Hapa Overwatch Kanban local state
+.env
+.env.*
+!.env.example
+.node_token
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+out/
+coverage/
+
+# Live board data and runtime artifacts
+data/
+artifacts/runtime/
+*.log
+*.pid
+
+# OS/editor noise
+.DS_Store

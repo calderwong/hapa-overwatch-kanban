@@ -1,0 +1,98 @@
+{
+  "id": "hapa-app-hapa-second-brain",
+  "name": "Hapa Second Brain App Kanban",
+  "summary": "App-specific Hapa protocol board for Hapa Second Brain. Role: Local-first knowledge database, retrieval memory, and operator UI.",
+  "active": true,
+  "protocolVersion": "hapa-overwatch-kanban/0.1.0",
+  "seedEventsPath": "seed/hapa-app-hapa-second-brain.events.ndjson",
+  "columns": [
+    {
+      "id": "backlog",
+      "label": "Backlog",
+      "intent": "Known work not yet ready for an agent."
+    },
+    {
+      "id": "ready",
+      "label": "Ready",
+      "intent": "Scoped work with enough context to start."
+    },
+    {
+      "id": "in_progress",
+      "label": "In Progress",
+      "intent": "Actively owned work."
+    },
+    {
+      "id": "blocked",
+      "label": "Blocked",
+      "intent": "Work that needs a decision, dependency, or external state change."
+    },
+    {
+      "id": "review",
+      "label": "Review",
+      "intent": "Ready for Overwatch/user review and integration check."
+    },
+    {
+      "id": "done",
+      "label": "Done",
+      "intent": "Verified and recorded."
+    }
+  ],
+  "actors": [
+    {
+      "id": "QuestKeeper",
+      "label": "QuestKeeper",
+      "role": "Consolidated audit and board coverage agent.",
+      "color": "#37d7ff"
+    },
+    {
+      "id": "Overwatch",
+      "label": "Overwatch",
+      "role": "Protocol tracker and integration watcher.",
+      "color": "#f5c85c"
+    },
+    {
+      "id": "Blue",
+      "label": "Blue",
+      "role": "Source truth, data, manifests, provenance.",
+      "color": "#42b7ff"
+    },
+    {
+      "id": "Green",
+      "label": "Green",
+      "role": "UI, operator workflow, QA, demo state.",
+      "color": "#4be38a"
+    },
+    {
+      "id": "Human",
+      "label": "Human",
+      "role": "Project owner, reviewer, and priority authority.",
+      "color": "#d6d8ff"
+    }
+  ],
+  "protocol": {
+    "sourceTruthHierarchy": [
+      "Live source at /Users/calderwong/Documents/Codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
+      "hapa_second_brain.db and grouping_refresh_registry",
+      "Second Brain README, AGENTS.md, docs, and wiki_articles",
+      "Overwatch Kanban append-only event log",
+      "Hapa Quest Keeper consolidated overview"
+    ],
+    "recordRule": "Every app build action, protocol audit, blocker, handoff, verification, and review note is appended as an event. The board is derived from the event log.",
+    "paritySurfaces": [
+      "UI",
+      "API",
+      "CLI",
+      "DATA",
+      "DESKTOP",
+      "TESTS",
+      "DOCS"
+    ],
+    "safeActionPolicy": "This board records coordination and protocol state. Do not mutate source memories, credentials, source exports, generated media, or node stores without explicit human authorization.",
+    "questKeeper": {
+      "nodeId": "hapa-second-brain",
+      "nodePath": "/Users/calderwong/Documents/Codex/2026-05-25/can-you-grab-my-1-amazon/hapa_second_brain",
+      "source": "operator-reviewed",
+      "consolidatedBy": "hapa-quest-keeper"
+    }
+  }
+}
