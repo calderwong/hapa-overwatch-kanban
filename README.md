@@ -74,3 +74,11 @@ The Kanban board, project log, and telemetry panels are projections from that ev
 5. Register the project in the owning app's `AGENTS.md` and node manifest.
 
 The event model is intentionally small so other Hapa nodes can write to it from a CLI, API, or future agent harness.
+
+## Related Hapa nodes
+
+- [Hapa Quest Keeper](https://github.com/calderwong/hapa-quest-keeper) — Consolidated board overview that audits and enriches per-app Kanban projects.
+- [Overwatch](https://github.com/calderwong/overwatch) — Operations spine that gives the board engine its broader inventory/protocol context.
+- [Hapa Space](https://github.com/calderwong/hapa-space) — Black Horizon consumer of board tasks, evidence, review gates, and telemetry.
+- [Hapa Telemetry Node](https://github.com/calderwong/hapa-telemetry-node) — Discovery and status companion for board-covered services.
+- [Hapa](https://github.com/calderwong/hapa) — Front-door documentation for the board standard and ecosystem role.
