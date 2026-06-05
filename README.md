@@ -96,3 +96,13 @@ The event model is intentionally small so other Hapa nodes can write to it from 
 - [Hapa Space](https://github.com/calderwong/hapa-space) — Black Horizon consumer of board tasks, evidence, review gates, and telemetry.
 - [Hapa Telemetry Node](https://github.com/calderwong/hapa-telemetry-node) — Discovery and status companion for board-covered services.
 - [Hapa](https://github.com/calderwong/hapa) — Front-door documentation for the board standard and ecosystem role.
+
+<!-- HAPA_NODE_ATLAS_DEMO:START -->
+## See It In Action
+
+<a href="https://calderwong.github.io/hapa-node-atlas/">
+  <img src="https://calderwong.github.io/hapa-node-atlas/assets/atalas-hero-loop-poster.jpg" alt="Hapa Node Atlas live demo" width="360">
+</a>
+
+[Open the Hapa Node Atlas demo](https://calderwong.github.io/hapa-node-atlas/)
+<!-- HAPA_NODE_ATLAS_DEMO:END -->
